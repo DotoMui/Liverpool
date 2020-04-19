@@ -1,0 +1,5 @@
+library(wordcloud)
+Data = read.csv(file = "C:/Users/meika/Desktop/sum_freq_n.csv")
+attach(Data)
+attach(Data)
+wordcloud(words=word,freq=freq,min.freq=5,max.words=50,random.order=TRUE)
